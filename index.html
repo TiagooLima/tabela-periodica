@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela periódica</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: poppins;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(203, 255, 252);
+        }
+
+        .conteudo h1 {
+            width: fit-content;
+            margin: 10px auto;
+        }
+
+        .conteudo table {
+            width: fit-content;
+            margin: 10px auto;
+            background: #572a9b;
+            background: linear-gradient(90deg,rgba(87, 42, 155, 0.54) 0%, rgba(87, 87, 199, 0.57) 50%, rgba(83, 142, 237, 0.83) 100%);  
+            padding: 25px;
+            border: 2px dashed purple;
+            border-radius: 30px;
+        }
+
+        td {
+           width: 35px;
+           height: 35px;
+           line-height: 40px;
+           text-align: center;
+        }
+
+        .branco {
+            background-color: rgb(221, 237, 250);
+            border: 2px solid rgb(176, 183, 183);
+        }
+
+        .laranja {
+            background-color: rgb(255, 204, 111);
+            border: 2px solid orange;
+        }
+
+        .amarelo {
+            background-color: rgba(255, 255, 120, 0.718);
+            border: 2px solid rgb(255, 187, 0);
+        }
+
+        .avermelhado {
+            background-color: rgb(255, 130, 155);
+            border: 2px solid rgb(255, 0, 51);
+        }
+
+        .azul {
+            background-color: rgb(79, 144, 218);
+            border: 2px solid rgb(0, 97, 207);
+        }
+
+        .azulbebeclaro {
+            background-color: rgb(160, 255, 247);
+            border: 2px solid rgb(27, 255, 236);
+        }
+
+        .azulacinzentado {
+            background-color: rgb(87, 120, 157);
+            border: 2px solid rgb(52, 109, 141);
+        }
+
+        .ciano {
+            background-color: rgba(76, 180, 255, 0.696);
+            border: 2px solid rgb(29, 123, 255);
+        }
+
+        .verdelimao {
+            background-color: rgba(199, 255, 114, 0.853);
+            border: 2px solid rgb(44, 255, 29);
+        }
+
+        .cianociano {
+            background-color: rgba(42, 255, 184, 0.577);
+            border: 2px solid rgb(18, 255, 176);
+        }
+
+        .roxo {
+            background-color: rgba(166, 115, 214, 0.818);
+            border: 2px solid rgb(130, 34, 130);
+        }
+
+        .cabecalho{
+            padding: 10px 20px;
+            width: fit-content;
+            margin: auto;
+            background-color: rgb(106, 188, 255);
+            border:solid lightblue;
+            border-width: 0 5px 5px 5px;
+            border-radius: 0 0 20px 20px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h2>Aluno: Tiago dos Anjos de Lima</h2>
+        <p>1º Semestre Engenharia de Software - Matutino</p>
+    </div>
+    <div class="conteudo">
+        <h1>Tabela periódica</h1>
+        <table>
+            <tr>
+                <td class="branco">H</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="azul">He</td>
+            </tr>
+            <tr>
+                <td class="laranja">Li</td>
+                <td class="amarelo">Be</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="ciano">B</td>
+                <td class="verdelimao">C</td>
+                <td class="verdelimao">N</td>
+                <td class="verdelimao">O</td>
+                <td class="azulbebeclaro">F</td>
+                <td class="azul">Ne</td>
+            </tr>
+            <tr>
+                <td class="laranja">Na</td>
+                <td class="amarelo">Mg</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="azulacinzentado">Al</td>
+                <td class="ciano">Si</td>
+                <td class="verdelimao">P</td>
+                <td class="verdelimao">S</td>
+                <td class="azulbebeclaro">Cl</td>
+                <td class="azul">Ar</td>
+            </tr>
+            <tr>
+                <td class="laranja">K</td>
+                <td class="amarelo">Ca</td>
+                <td class="avermelhado">Sc</td>
+                <td class="avermelhado">Ti</td>
+                <td class="avermelhado">V</td>
+                <td class="avermelhado">Cr</td>
+                <td class="avermelhado">Mn</td>
+                <td class="avermelhado">Fe</td>
+                <td class="avermelhado">Co</td>
+                <td class="avermelhado">Ni</td>
+                <td class="avermelhado">Cu</td>
+                <td class="avermelhado">Zn</td>
+                <td class="azulacinzentado">Ga</td>
+                <td class="ciano">Ge</td>
+                <td class="ciano">As</td>
+                <td class="verdelimao">Se</td>
+                <td class="azulbebeclaro">Br</td>
+                <td class="azul">Kr</td>
+            </tr>
+            <tr>
+                <td class="laranja">Rb</td>
+                <td class="amarelo">Sr</td>
+                <td class="avermelhado">Y</td>
+                <td class="avermelhado">Zr</td>
+                <td class="avermelhado">Nb</td>
+                <td class="avermelhado">Mo</td>
+                <td class="avermelhado">Tc</td>
+                <td class="avermelhado">Ru</td>
+                <td class="avermelhado">Rh</td>
+                <td class="avermelhado">Pd</td>
+                <td class="avermelhado">Ag</td>
+                <td class="avermelhado">Cd</td>
+                <td class="azulacinzentado">In</td>
+                <td class="azulacinzentado">Sn</td>
+                <td class="ciano">Sb</td>
+                <td class="ciano">Te</td>
+                <td class="azulbebeclaro">I</td>
+                <td class="azul">Xe</td>
+            </tr>
+            <tr>
+                <td class="laranja">Cs</td>
+                <td class="amarelo">Ba</td>
+                <td></td>
+                <td class="avermelhado">Hf</td>
+                <td class="avermelhado">Ta</td>
+                <td class="avermelhado">W</td>
+                <td class="avermelhado">Re</td>
+                <td class="avermelhado">Os</td>
+                <td class="avermelhado">Ir</td>
+                <td class="avermelhado">Pt</td>
+                <td class="avermelhado">Au</td>
+                <td class="avermelhado">Hg</td>
+                <td class="azulacinzentado">Tl</td>
+                <td class="azulacinzentado">Pb</td>
+                <td class="azulacinzentado">Bi</td>
+                <td class="ciano">Po</td>
+                <td class="azulbebeclaro">At</td>
+                <td class="azul">Rn</td>
+            </tr>
+            <tr>
+                <td class="laranja">Fr</td>
+                <td class="amarelo">Ra</td>
+                <td></td>
+                <td class="avermelhado">Rf</td>
+                <td class="avermelhado">Db</td>
+                <td class="avermelhado">Sg</td>
+                <td class="avermelhado">Bh</td>
+                <td class="avermelhado">Hs</td>
+                <td class="avermelhado">Mt</td>
+                <td class="avermelhado">Ds</td>
+                <td class="avermelhado">Rg</td>
+                <td class="avermelhado">Cn</td>
+                <td class="azulacinzentado">Nh</td>
+                <td class="azulacinzentado">Fl</td>
+                <td class="azulacinzentado">Mc</td>
+                <td class="azulacinzentado">Lv</td>
+                <td class="azulbebeclaro">Ts</td>
+                <td class="azul">Og</td>
+            </tr>
+            <tr>
+                <td colspan="18"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="cianociano">La</td>
+                <td class="cianociano">Ce</td>
+                <td class="cianociano">Pr</td>
+                <td class="cianociano">Nd</td>
+                <td class="cianociano">Pm</td>
+                <td class="cianociano">Sm</td>
+                <td class="cianociano">Eu</td>
+                <td class="cianociano">Gd</td>
+                <td class="cianociano">Tb</td>
+                <td class="cianociano">Dy</td>
+                <td class="cianociano">Ho</td>
+                <td class="cianociano">Er</td>
+                <td class="cianociano">Tm</td>
+                <td class="cianociano">Yb</td>
+                <td class="cianociano">Lu</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="roxo">Ac</td>
+                <td class="roxo">Th</td>
+                <td class="roxo">Pa</td>
+                <td class="roxo">U</td>
+                <td class="roxo">Np</td>
+                <td class="roxo">Pu</td>
+                <td class="roxo">Am</td>
+                <td class="roxo">Cm</td>
+                <td class="roxo">Bk</td>
+                <td class="roxo">Cf</td>
+                <td class="roxo">Es</td>
+                <td class="roxo">Fm</td>
+                <td class="roxo">Md</td>
+                <td class="roxo">No</td>
+                <td class="roxo">Lr</td>
+            </tr>
+        </table>
+        <div class="info">
+            
+        </div>
+    </div>
+</body>
+
+</html>
